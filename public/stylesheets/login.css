@@ -1,0 +1,48 @@
+body{
+    background-size: 95%;
+    background-repeat: no-repeat;
+    background: #f1d178
+}
+
+.aaa{
+    width: 338px;
+    height: 260px;
+    padding: 13px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -200px;
+
+    background-color:rgb(252, 218, 174);
+    border-radius: 10px;
+    text-align: center;
+}
+.aaa input[type='text'],
+.aaa input[type='password'] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: -5px auto;
+    text-align: center;
+    border: 2px solid #664821;
+    padding: 15px 10px;
+    width: 200px;
+    outline: none;
+    color: rgb(116, 59, 59);
+    border-radius: 25px;
+    transition: 0.25s;
+}
+.aaa input[type='submit'] {
+    border: 0;
+    background: none;
+    margin: -5px auto;
+    text-align: center;
+    border: 2px solid rgb(112, 73, 37);
+    padding: 15px 10px;
+    width: 100px;
+    outline: none;
+    color: rgb(58, 29, 29);
+    border-radius: 25px;
+    transition: 0.25s;
+}
