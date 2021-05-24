@@ -5,6 +5,7 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 let ejs = require('ejs');
 var session = require('express-session');
+var mysql = require('mysql');
 
 // var loginRouter = require('./routes/login');
 var registerRouter =require('./routes/register');
